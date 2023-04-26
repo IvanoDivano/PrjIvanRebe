@@ -12,12 +12,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <div id="header-placeholder"></div>
-    <script>
-        $(function(){
-          $("#header-placeholder").load("../html/components/header.html");
-        });
-    </script>
+    <?php include './components/header.html'; ?>
     <section>
         <form action="../scripts/action.php" method="post">
             <input type="text" id="firstname" name="firstname" placeholder="Nome" required>

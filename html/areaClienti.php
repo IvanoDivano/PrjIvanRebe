@@ -12,12 +12,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <div id="header-placeholder"></div>
-    <script>
-        $(function(){
-          $("#header-placeholder").load("../html/components/header.html");
-        });
-    </script>
+    <?php include './components/header.html'; ?>
     <section>
         <form>
             <input type="email" id="email" name="email" placeholder="Inserisci email" required oninvalid="this.setCustomValidity('Il campo è obbligatorio')" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.(com|it|org|net|edu|gov|mil|biz|info|io|me|tv|co)$">

@@ -11,10 +11,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <div id="header-placeholder"></div>
-    <script>
-        $(function(){$("#header-placeholder").load("../html/components/header.html");});
-    </script>
+    <?php include './components/header.html'; ?>
     <div class="MidPage">
         <div id="Motto">
             <h1>Rendi i tuoi viaggi sempre più <br> sostenibili</h1>
