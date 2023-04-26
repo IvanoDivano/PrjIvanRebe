@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
+
     <title>GoGreen</title>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
     <link rel="stylesheet" href="../css/index.css">
     <link rel="icon" href="../res/GoGreen-vuoto.png">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
     <?php include './components/header.html'; ?>
