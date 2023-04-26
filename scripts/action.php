@@ -3,7 +3,7 @@
     $host = 'localhost';
     $user = 'S4797564';
     $dbpw = 'Un_Etto_Di_Cotto';
-    $database = 'S4797564';
+    $db = 'S4797564';
 
 
     $firstname = $_POST['firstname'];
@@ -13,11 +13,11 @@
 
     $hashedPass = password_hash($pass, PASSWORD_ARGON2I);
 
-    $dbConnection = new mysqli($hostname, $username, $dbpw,$db);
+    $dbConnection = new mysqli($host, $user, $dbpw, $user);
 
     if ($dbConnection->connect_error){die('Connection to the database failed: ' . $dbConnection->connect_error);}
 
-    $query = "INSERT INTO users (firstname, lastname, email, password) VALUES ('$firstname', '$lastname', '$email', '$hashedPass')";
+    $query = "INSERT INTO users VALUES ('$firstname', '$lastname', '$email', '$hashedPass', NULL)";
 
     if ($dbConnection->query($query) === TRUE){
         echo "Added new user!";
