@@ -7,22 +7,14 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
     <title>GoGreen</title>
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="icon" href="../res/GoGreen-vuoto.png" >
+    <link rel="icon" href="../res/GoGreen-vuoto.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <header>
-        <div class="Logo">
-            <a href="index.html"><img src="../res/GoGreen-Vuoto.png" alt="Immagine logo"></a>
-        </div>
-        <nav>
-            <div><a href="">Mappa</a></div>
-            <div><a href="">Tariffe</a></div>
-            <div><a href="">Faq</a></div>
-            <div><a href="Registrazone.html">Registrati</a></div>
-            <div><a href="areaClienti.html">AreaClienti</a></div>
-            <div><a href="">Ricerca</a></div>
-        </nav>
-    </header>
+    <div id="header-placeholder"></div>
+    <script>
+        $(function(){$("#header-placeholder").load("../html/components/header.html");});
+    </script>
     <div class="MidPage">
         <div id="Motto">
             <h1>Rendi i tuoi viaggi sempre più <br> sostenibili</h1>

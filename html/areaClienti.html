@@ -8,22 +8,16 @@
     <title>GoGreen</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/areaClienti.css">
-    <link rel="icon" href="../res/GoGreen-vuoto.png" >
+    <link rel="icon" href="../res/GoGreen-vuoto.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <header>
-        <div class="Logo">
-            <a href="index.html"><img src="../res/GoGreen-Vuoto.png" alt="Immagine logo"></a>
-        </div>
-        <nav>
-            <div><a href="">Mappa</a></div>
-            <div><a href="">Tariffe</a></div>
-            <div><a href="">Faq</a></div>
-            <div><a href="Registrazone.html">Registrati</a></div>
-            <div><a id="here" href="areaClienti.html">AreaClienti</a></div>
-            <div><a href="">Ricerca</a></div>
-        </nav>
-    </header>
+    <div id="header-placeholder"></div>
+    <script>
+        $(function(){
+          $("#header-placeholder").load("../html/components/header.html");
+        });
+    </script>
     <section>
         <form>
             <input type="email" id="email" name="email" placeholder="Inserisci email" required oninvalid="this.setCustomValidity('Il campo è obbligatorio')" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.(com|it|org|net|edu|gov|mil|biz|info|io|me|tv|co)$">
