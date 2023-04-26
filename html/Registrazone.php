@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <?php include './components/header.html'; ?>
+    <?php include './components/header.html';?>
     <section>
         <form action="../scripts/action.php" method="post">
             <input type="text" id="firstname" name="firstname" placeholder="Nome" required>
