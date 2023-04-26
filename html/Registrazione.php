@@ -30,10 +30,16 @@
             <input type="checkbox" onclick="myFunction()"> <p>Mostra password</p>
             <input type="password" id="confirm" name="confirm" placeholder="Conferma password" required>
             <span id="error-message"></span>
+            <button onclick="inviaFunction()" id="invia">Invia</button>
             <script>
-                
+                function inviaFunction() {
+                    var element = document.getElementById("invia");
+                    element.style.transform ="scale(0.95)";
+                    setTimeout(function() {
+                        element.style.transform = "";
+                }, 150);
+            }
             </script>
-            <button>Invia</button>
         </form>
     </section>
     <?php include './components/footer.html'; ?>

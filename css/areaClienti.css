@@ -1,5 +1,5 @@
 section{ 
-    background-image:url(../res/registrazione.png);
+    background-image:url(../res/registrazione2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -110,7 +110,7 @@ form button:hover{
     color:#49ce5c;
 }
 
-input[type="email"]:focus, input[type="password"]:focus {
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
   outline: none;
   box-shadow: 0px 0px 5px #7ED957;
 }

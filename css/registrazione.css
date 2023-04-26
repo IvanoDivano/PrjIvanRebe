@@ -1,5 +1,5 @@
 section{ 
-    background-image:url(../res/registrazione.png);
+    background-image:url(../res/registrazione2.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -70,7 +70,7 @@ form {
     background-color: rgb(255, 255, 255);
     opacity:90%;
     width:35%;
-    height:88%;
+    height:85%;
     margin-top:5%;
     text-align: center;
 }

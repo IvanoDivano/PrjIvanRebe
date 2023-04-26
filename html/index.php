@@ -17,7 +17,7 @@
             <h1>Rendi i tuoi viaggi sempre più <br> sostenibili</h1>
             <button onclick="myFunction()" id="Prenota">Prenota il tuo veicolo</button>
             <h3>Non sei ancora cliente GoGreen?</h3>
-            <a href="Registrazone.php"> Registrati </a>
+            <a href="Registrazione.php"> Registrati </a>
         </div>
     </div>
     <article>
