@@ -47,16 +47,7 @@
             </div>
         </section>
     </article>
-    <footer>
-        <h3>GoGreen - Il tuo servizio di car sharing ecologico</h3>
-        <p>
-            Seguici sui social media: <br> <img src="../res/iconeSocial/1.png"> <img src="../res/iconeSocial/2.png"> <img src="../res/iconeSocial/3.png"> 
-            <br>
-            Contattaci: info@gogreen.com | +39 123 456 789
-            <h5> © 2023 GoGreen. Tutti i diritti riservati.</h5>
-            <h6>Ivan Tenga e Rebecca Sanua</h6>
-        </p>
-    </footer>
+    <?php include './components/footer.html'; ?>
     <script>
         function myFunction() {
             var element = document.getElementById("Prenota");
