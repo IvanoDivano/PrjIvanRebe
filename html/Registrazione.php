@@ -8,7 +8,7 @@
     <title>GoGreen</title>
 
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/headerFooter.css">
     <link rel="stylesheet" href="../css/registrazione.css">
     <link rel="icon" href="../res/GoGreen-vuoto.png">
 </head>
@@ -28,11 +28,52 @@
             <input type="text" id="lastname" name="lastname" placeholder="Cognome" required>
             <input type="email" id="email" name="email" placeholder="Email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.(com|it|org|net|edu|gov|mil|biz|info|io|me|tv|co)$">
             <input type="password" id="pass" name="pass" placeholder="Password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+,-.;'/?[\]{}|`~=:]).{8,}$" title="La password deve contenere almeno un numero, una lettera maiuscola, una lettera minuscola, un carattere speciale e minimo 8 caratteri">
-            <input type="checkbox" onclick="myFunction()"> <p>Mostra password</p>
+            <input type="checkbox" onclick="ShowPsw()"> <p>Mostra password</p>
             <input type="password" id="confirm" name="confirm" placeholder="Conferma password" required>
-            <span id="error-message"></span>
+            <div id="error-message"></div>
             <button onclick="inviaFunction()" id="invia">Invia</button>
             <script>
+                //mostra/nascondi password
+                function ShowPsw(){
+                    var x = document.getElementById("pass");
+                    var y = document.getElementById("confirm");
+                    if ((x.type === "password" && y.type === "password") || x.type === "password" || y.type === "password") {
+                        x.type = "text";
+                        y.type = "text";
+                    } else if (x.value === "" && y.value === "") {
+                         x.type = "password";
+                         y.type = "password";
+                    } else {
+                        x.type = "password";
+                        y.type = "password";
+                    }
+                }
+
+                //controllo se le password coincidono
+                const passwordInput = document.getElementById('pass');
+                const confirmPasswordInput = document.getElementById('confirm');
+                const errorMessage = document.getElementById('error-message');
+
+              confirmPasswordInput.addEventListener('input', function() {
+                    if (confirmPasswordInput.value === '') {
+                          errorMessage.textContent = '';
+                      } else if (passwordInput.value !== confirmPasswordInput.value) {
+                      errorMessage.textContent = 'Le password non coincidono';
+                    } else {
+                      errorMessage.textContent = '';
+                    }
+                });
+                passwordInput.addEventListener('input', function() {
+                    if (confirmPasswordInput.value === '') {
+                          errorMessage.textContent = '';
+                      } else if (passwordInput.value !== confirmPasswordInput.value) {
+                      errorMessage.textContent = 'Le password non coincidono';
+                    } else {
+                      errorMessage.textContent = '';
+                    }
+                });
+
+                //aninimazione bottone 
                 function inviaFunction() {
                     var element = document.getElementById("invia");
                     element.style.transform ="scale(0.95)";

@@ -8,6 +8,7 @@
     <title>GoGreen</title>
 
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
+    <link rel="stylesheet" href="../css/headerFooter.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="icon" href="../res/GoGreen-vuoto.png">
 </head>

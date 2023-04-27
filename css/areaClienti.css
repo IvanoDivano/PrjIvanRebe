@@ -1,4 +1,5 @@
 section{ 
+    display: block;
     background-image:url(../res/registrazione2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,10 +8,7 @@ section{
     display: flex;
     flex-direction: row;
     height:800px;
-}
-
-header{
-    position: absolute;
+    margin-bottom: 3%;
 }
 
 aside{
@@ -92,20 +90,24 @@ form input {
     padding-bottom: 6px;
 }
 
-form button{
+form button{ 
+    border-radius: 15px;
+    border: 3px solid #49ce5c;
+    color:white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
     background-color: #49ce5c;
-    border-color: #49ce5c;
     text-decoration: none;
     display:block;
     font-size: 15pt;
-    margin-left:25%;
-    margin-top:15%;
-    padding:0;
-    width: 50%;
     height: 40px;
+    width: 45%;
+    margin-top:20%;
+    margin-left:25%;
 }
+
 form button:hover{
-    border-color: #49ce5c;
+    border: 3px solid #49ce5c;
     background-color: #f5f5f5;
     color:#49ce5c;
 }

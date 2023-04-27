@@ -7,10 +7,7 @@ section{
     display: flex;
     flex-direction: row;
     height:800px;
-}
-
-header{
-    position: absolute;
+    margin-bottom: 3%;
 }
 
 aside{
@@ -25,9 +22,11 @@ aside{
 aside h1{
     font-size: 40pt;
 }
+
 aside h2{
     font-size: 35pt;
 }
+
 aside h3{
     margin-top:5%;
     font-family: "Open Sans", sans-serif;
@@ -91,20 +90,24 @@ form input {
     padding-bottom: 6px;
 }
 
-form button{
+form button{ 
+    border-radius: 15px;
+    border: 3px solid #49ce5c;
+    color:white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
     background-color: #49ce5c;
-    border-color: #49ce5c;
     text-decoration: none;
     display:block;
     font-size: 15pt;
-    margin-left:25%;
-    margin-top:10%;
-    padding:0;
-    width: 50%;
     height: 40px;
+    width: 45%;
+    margin-left:25%;
+    margin-top:2%;
 }
+
 form button:hover{
-    border-color: #49ce5c;
+    border: 3px solid #49ce5c;
     background-color: #f5f5f5;
     color:#49ce5c;
 }
@@ -130,6 +133,17 @@ input::placeholder{
     opacity: 80%;
     font-size: 13pt;
 }
+
+#error-message {
+    width:60%;
+    height:5%;
+    font-family: lora;
+    font-style: italic;
+    color:black;
+    font-size: 12pt;
+    margin-left:20%;
+}
+
 form p {
     margin-left:1%;
     float:left; 
