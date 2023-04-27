@@ -23,27 +23,27 @@
         </div>
     </div>
     <article>
-        <h1>La mobilità sostenibile è una priorità per noi di GoGreen.</h1>
+        <h2>La mobilità sostenibile è una priorità per noi di GoGreen.</h2>
         <p> Il nostro servizio di car sharing con macchine <b>full eletric</b> è ora disponibile in tutta italia. </p>
         <p>Offriamo un’opzione <b>ecologica</b> ed <b>economica</b> per soddisfare le esigenze di trasporto. <br> Nella sezione successiva, esamineremo in dettaglio i vantaggi del nostro servizio e dimostreremo come può aiutare a ridurre i costi, aumentare l’efficienza e contribuire a un futuro più sostenibile. Scopri come il nostro servizio può essere la <b>soluzione ideale</b> per le tue esigenze di mobilità.</p>
         <section>
             <div class="iconePrimaLinea">
-                <img src="../res/icone/3.png">
+                <img src="../res/icone/3.png" alt="icona di mani che tengono la terra, indice della sostenibilità ambientale">
                 <h2>Sostenibilità ambientale</h2>
                 <p>Le nostre macchine elettriche sono alimentate da fonti di energia pulita e rinnovabile, riducendo l’impatto ambientale del trasporto su strada.</p>
             </div>
             <div class="iconePrimaLinea">
-                <img src="../res/icone/2.png">
+                <img src="../res/icone/2.png" alt="icona mano che tiene portafoglio, indice della convenienza economica">
                 <h2>Convenienza economica</h2>
                 <p>Risparmiate sui costi associati alla proprietà di un’auto personale e godete dei vantaggi economici dell’elettricità rispetto al carburante tradizionale</p>
             </div>
             <div class="iconeSecondaLinea">
-                <img src="../res/icone/4.png">
+                <img src="../res/icone/4.png" alt="icona mappa con indicaore di localizzazione, indice della flessibilità">
                 <h2>Flessibilità</h2>
                 <p>Prenotate un’auto quando ne avete bisogno e restituitela quando avete finito, il tutto con pochi semplici clic.</p>
             </div>
             <div class="iconeSecondaLinea">
-                <img src="../res/icone/1.png">
+                <img src="../res/icone/1.png" alt="icona lampadina illuminata, indice della tecnologia all'avanguardia">
                 <h2>Tecnologia all’avanguardia</h2>
                 <p>Godete di un’esperienza di guida piacevole e sicura grazie alle avanzate funzionalità di assistenza alla guida e ai sistemi di intrattenimento a bordo delle nostre macchine elettriche.</p>
             </div>
