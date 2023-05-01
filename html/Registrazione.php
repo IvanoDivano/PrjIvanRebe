@@ -7,7 +7,7 @@
 
     <title>GoGreen</title>
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="../css/headerFooter.css">
     <link rel="stylesheet" href="../css/registrazione.css">
     <link rel="icon" href="../res/GoGreen-vuoto.png">
@@ -16,11 +16,11 @@
     <?php include './components/header.html';?>
     <section>
         <aside>
-            <h1>Non sei ancora registrato?</h1>
-            <h2>Cosa aspetti!</h2>
+            <h2>Non sei ancora registrato?</h2>
+            <h3>Cosa aspetti!</h3>
             <p>Registrandoti alla nostra <b>area clienti</b> avrai accesso a una serie di vantaggi esclusivi. <br> Potrai gestire facilmente <b>le tue prenotazioni</b> di car sharing, visualizzare lo storico delle tue prenotazioni e accedere a <b>offerte</b> e <b>promozioni</b> riservate ai nostri clienti fedeli. <br> Inoltre, la registrazione è semplice e veloce. <br> Unisciti alla nostra <b>community</b> di utenti soddisfatti <br> e sfrutta al massimo i vantaggi del <b>car sharing!</b></p>
-            <h3>Sei già cliente GoGreen?</h3>
-            <a href="AreaClienti.php"> Accedi all'area clienti </a>
+            <h4>Sei già cliente GoGreen?</h4>
+            <a href="areaClienti.php"> Accedi all'area clienti </a>
         </aside>
         <form action="../scripts/RegisterUser.php" method="post">
             <h1>Inserisci i tuoi dati</h1>

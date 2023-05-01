@@ -7,7 +7,7 @@
 
     <title>GoGreen</title>
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="../css/headerFooter.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="icon" href="../res/GoGreen-vuoto.png">
@@ -17,7 +17,7 @@
     <div class="MidPage">
         <div id="Motto">
             <h1>Rendi i tuoi viaggi sempre più <br> sostenibili</h1>
-            <button onclick="myFunction()" id="Prenota">Prenota il tuo veicolo</button>
+            <button onclick="myFunction(); location.href='PrenotaVeicolo.php'" id="Prenota">Prenota il tuo veicolo</button>
             <h3>Non sei ancora cliente GoGreen?</h3>
             <a href="Registrazione.php"> Registrati </a>
         </div>

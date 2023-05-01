@@ -20,13 +20,13 @@ aside{
     font-weight: bold;
 }
 
-aside h1{
+aside h2{
     font-size: 50pt;
 }
-aside h2{
+aside h3{
     font-size: 40pt;
 }
-aside h3{
+aside h4{
     margin-top:5%;
     font-family: "Open Sans", sans-serif;
     font-size: 15pt;

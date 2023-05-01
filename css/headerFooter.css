@@ -35,10 +35,11 @@ nav{
     margin-left: 10%;
     width: 60vw;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
-
+nav div {
+    margin-right: 5%;
+}
 nav a{
     text-decoration: none;
     color: black;
@@ -84,9 +85,44 @@ footer img:hover{
     scale:0.95;
 }
 
- footer h6{
+footer h6{
     margin-top:0.5%;
     font-weight:inherit;
     font-size: 10pt;
     font-family: Lora;
- }
+}
+
+#box-bottom{
+    height:30%;
+    background-color:#7ED957;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #7ED957, 0 0 0 20px #ffffffeb;
+    padding-left: 3%;
+}
+
+nav input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    color:black;
+    opacity:60%;
+    font-size: 13pt;
+}
+
+nav input{
+    background-color:transparent;
+    border:none;
+    margin-left:2%;
+}
+
+nav input:hover{
+    border:none;
+}
+
+nav input:focus{
+    border:none;
+    outline: none;
+}
+
+#search{ 
+    margin-left:1%;
+}
+
