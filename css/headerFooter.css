@@ -22,7 +22,7 @@ header{
 }
 
 .Logo{
-    margin-left:10%;
+    margin-left:8%;
     margin-top:0.5%;
     margin-bottom: 0.5%;
 }
@@ -37,9 +37,11 @@ nav{
     display: flex;
     align-items: center;
 }
+
 nav div {
     margin-right: 5%;
 }
+
 nav a{
     text-decoration: none;
     color: black;
@@ -110,7 +112,7 @@ nav input::placeholder{
 nav input{
     background-color:transparent;
     border:none;
-    margin-left:2%;
+    margin-left:8%;
 }
 
 nav input:hover{
@@ -125,4 +127,3 @@ nav input:focus{
 #search{ 
     margin-left:1%;
 }
-
