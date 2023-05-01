@@ -28,28 +28,28 @@
                 <p> Questa elegante auto elettrica a 5 porte offre un’esperienza di guida<br> <b>confortevole</b> e <b>silenziosa</b>. Con un’autonomia di oltre <b>400 km</b><br> con una singola carica, è perfetta per viaggi <b>lunghi</b> o <b>brevi</b>.</p>
                 <h3>Da 5€ l'ora,<span> 0,55€ al km</span></h3>
                 <button>Prenota</button><img class="carrello" src="..\res\IconaCarrello.png">
-                <h5><img class="info" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
+                <h5><img class="info" alt="Immagine Rangerover bianco" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
             </div>
             <div class="articolo">
                 <h2>BMW Eco-Cruiser</h2>
                 <p>Questa berlina elettrica offre un’esperienza di guida <b>fluida</b> e <b>silenziosa</b>. <br> Con un’autonomia di oltre <b>600 km</b> con una singola carica, è perfetta per viaggi di <b>lavoro</b> o di <b>piacere</b>.</p>
                 <h3>Da 4€ l'ora,<span> 0,45€ al km</span></h3>
                 <button>Prenota</button><img class="carrello" src="..\res\IconaCarrello.png">
-                <h5><img class="info" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
+                <h5><img class="info" alt="Immagine BMW bianca" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
             </div>
             <div class="articolo">
                 <h2>BMW Eco-SUV</h2>
                 <p>Questo SUV elettrico offre un’esperienza di guida <b>dinamica</b> e <b>potente</b>. <br> Con un’autonomia di oltre <b>500 km</b> con una singola carica, è ideale per viaggi in <b>famiglia</b> o con <b>amici</b>.</p>
                 <h3>Da 6€ l'ora,<span> 0,65€ al km</span></h3>
                 <button>Prenota</button><img class="carrello" src="..\res\IconaCarrello.png">
-                <h5><img class="info" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
+                <h5><img class="info"alt="Immagine BMW Suv bianco" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
             </div>
             <div class="articolo">
                 <h2>Tesla Eco-Rocket</h2>
                 <p>Questa auto elettrica offre un’esperienza di guida <b>innovativa</b> e <b>tecnologica</b>. <br>Con un’autonomia di oltre <b>700 km</b> con una singola carica, è ideale per viaggi a <b>lungo raggio</b>.</p>
                 <h3>Da 8€ l'ora,<span> 0,85€ al km</span></h3>
                 <button>Prenota</button><img class="carrello" src="..\res\IconaCarrello.png">
-                <h5><img class="info" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
+                <h5><img class="info"  alt="Immagine tesla bianca" src="..\res\IconaInfo.png">Se non sei sicuro, aggiungi al carrello e confronta i prezzi in base <br> al chilometraggio.</h5>
             </div>
         </article>
     </section>
