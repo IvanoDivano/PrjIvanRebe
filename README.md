@@ -1,4 +1,4 @@
 ### Things to do
 
-## - [x] Case sensitive
-## - [ ] Controllo utente gia esistente
+ - [x] Case sensitive
+ - [ ] Controllo utente gia esistente
