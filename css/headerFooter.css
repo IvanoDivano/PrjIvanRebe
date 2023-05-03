@@ -132,8 +132,9 @@ nav input:focus{
     color: black;
     border: none;
     padding: 5%;
+    text-align: center;
 
-  }
+}
   
   /* Contenitore del menu a tendina */
   .dropdown {
@@ -145,10 +146,21 @@ nav input:focus{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    margin-top:2%;
+    min-width: 200px;
+    background-color: white;
     font-family: "Open Sans", sans-serif;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    margin-top:10%;
+    margin-left:20%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    display: block;
   }
   
   /* Mostra il menu a tendina al passaggio del mouse sul pulsante */
