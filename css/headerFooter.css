@@ -33,7 +33,7 @@ header{
 
 nav{
     margin-left: 10%;
-    width: 60vw;
+    width: 100vw;
     display: flex;
     align-items: center;
 }
@@ -138,6 +138,7 @@ nav input:focus{
   
   /* Contenitore del menu a tendina */
   .dropdown {
+    width:auto;
     position: relative;
     display: inline-block;
   }
@@ -166,5 +167,16 @@ nav input:focus{
   /* Mostra il menu a tendina al passaggio del mouse sul pulsante */
   .dropdown:hover .dropdown-content {
     display: block;
-}
+ }
+    #logout{
+        margin-top:0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+ .dropdown-content img{
+    width:15%;
+    margin-left:4%;
+    display: inline-block;
+    }
   

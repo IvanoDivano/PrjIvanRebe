@@ -23,20 +23,24 @@
 
         if ($dbConnection->query($query) === TRUE){
             // Sanificazione dei dati prima di visualizzarli in una pagina HTML
-            $username = htmlspecialchars($firstname, ENT_QUOTES, 'UTF-8');
-            echo "Ciao, " . $username . ". Ti sei registrato con successo.";
+            $name = htmlspecialchars($firstname, ENT_QUOTES, 'UTF-8');
+            echo '<link rel="stylesheet" type="text/css" href="../css/error.css">';
+            echo "Ciao, " . $name . "<br> La tua registrazione è andata a buon fine.";
         }
         else{
             if ($dbConnection->errno === 1062) {
                 // Codice di errore 1062: violazione di chiave univoca (email duplicata)
+                echo '<link rel="stylesheet" type="text/css" href="../css/error.css">';
                 echo "Errore: l'indirizzo email fornito è già stato utilizzato.";
             } else{
                 // Altri errori
+                echo '<link rel="stylesheet" type="text/css" href="../css/error.css">';
                 echo "Errore durante la registrazione: " . $dbConnection->error;
             }
         }
     }
     else {
+        echo '<link rel="stylesheet" type="text/css" href="../css/error.css">';
         echo "Errore: i dati non sono stati inviati.";
     }
 
