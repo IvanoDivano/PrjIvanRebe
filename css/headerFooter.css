@@ -127,3 +127,32 @@ nav input:focus{
 #search{ 
     margin-left:1%;
 }
+
+.dropbtn {
+    color: black;
+    border: none;
+    padding: 5%;
+
+  }
+  
+  /* Contenitore del menu a tendina */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Contenuto del menu a tendina (nascosto di default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Mostra il menu a tendina al passaggio del mouse sul pulsante */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  

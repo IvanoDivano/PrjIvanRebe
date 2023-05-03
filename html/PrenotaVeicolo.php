@@ -12,7 +12,16 @@
     <link rel="icon" href="../res/GoGreen-vuoto.png">
 </head>
 <body>
-    <?php include './components/header.html'; ?>
+    <?php
+        session_start();
+        if (isset($_SESSION['loggato'])) {
+            // L'utente ha effettuato il login
+            include './components/headerLogged.html';
+        } else {
+            // L'utente non ha effettuato il login
+            include './components/header.html';
+        }
+    ?>
     <section>
         <h1>Scopri le nostre auto elettriche</h1>
         <h2 id="benvenuti">Benvenuti nella nostra sezione dedicata alle auto elettriche</h2>

@@ -13,7 +13,16 @@
     <link rel="icon" href="../res/GoGreen-vuoto.png">
 </head>
 <body>
-    <?php include './components/header.html'; ?>
+    <?php
+        session_start();
+        if (isset($_SESSION['loggato'])) {
+            // L'utente ha effettuato il login
+            include './components/headerLogged.html';
+        } else {
+            // L'utente non ha effettuato il login
+            include './components/header.html';
+        }
+    ?>
     <div class="MidPage">
         <div id="Motto">
             <h1>Rendi i tuoi viaggi sempre più <br> sostenibili</h1>

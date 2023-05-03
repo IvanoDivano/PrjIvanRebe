@@ -1,3 +1,11 @@
+<?php 
+    session_start();
+    if(!isset($_SESSION['loggato'])|| $_SESSION['loggato']!== true){
+        header("location: areaClienti.php");
+        exit;
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -13,7 +21,15 @@
     <link rel="icon" href="../res/GoGreen-vuoto.png">
 </head>
 <body>
-    <?php include './components/header.html'; ?>
+    <?php
+        if (isset($_SESSION['loggato'])) {
+            // L'utente ha effettuato il login
+            include './components/headerLogged.html';
+        } else {
+            // L'utente non ha effettuato il login
+            include './components/header.html';
+        }
+    ?>
     <section>
     </section>
     <?php include './components/footer.html'; ?>
