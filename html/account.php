@@ -14,6 +14,8 @@
 </head>
 <body>
     <?php include './components/header.html'; ?>
+    <section>
+    </section>
     <?php include './components/footer.html'; ?>
 </body>
 </html>
