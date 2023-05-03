@@ -8,8 +8,8 @@
         $email = $dbConnection->real_escape_string(strtolower($_POST['email']));
         $pass =  $dbConnection->real_escape_string($_POST['pass']);
     
-        $patternEmail = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.(com|it|org|net|edu|gov|mil|biz|info|io|me|tv|co)$";
-        $patternPass = "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+,-.;'/?[\]{}|`~=:]).{8,}$";
+        $patternEmail = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|it|org|net|edu|gov|mil|biz|info|io|me|tv|co)$/";
+        $patternPass = "/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+,-.;'/?[\]{}|`~=:]).{8,}$/";
 
         if(!preg_match($patternEmail, $email) || !preg_match($patternPass, $pass)){
             echo "The email or the password is in an incorrect format";
